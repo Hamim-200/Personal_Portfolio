@@ -2,9 +2,9 @@ import React from 'react';
 
 const Portfolio = () => {
     return (
-        <div>
+        <section id='portfolio'>
             <h4>This is portfolio</h4>
-        </div>
+        </section>
     );
 };
 
