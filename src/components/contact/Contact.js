@@ -1,9 +1,11 @@
 import React from 'react';
+import './Contact.css';
 
 const Contact = () => {
     return (
         <section id='contact'>
-            <h3>This is contact</h3>
+            <h5>Find Me Out</h5>
+            <h2>Contact</h2>
         </section>
     );
 };
