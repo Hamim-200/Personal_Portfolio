@@ -21,7 +21,7 @@ const Portfolio = () => {
                     <h3>This is a portfolio item Title</h3>
                     <div className='portfolio__item-cta'>
                         <a href="https://github.com/" className='btn'>Github</a>
-                        <a href="https://hamim-200.github.io/To_Do_List/" className='btn btn-primary'>Show Demo</a>
+                        <a href="https://hamim-200.github.io/To_Do_List/" className='btn'>Show Demo</a>
                     </div>
                 </article>
                 <article className="portfolio__item">
@@ -31,7 +31,7 @@ const Portfolio = () => {
                     <h3>This is a portfolio item Title</h3>
                     <div className='portfolio__item-cta'>
                         <a href="https://github.com/" className='btn'>Github</a>
-                        <a href="https://hamim-200.github.io/To_Do_List/" className='btn btn-primary'>Show Demo</a>
+                        <a href="https://hamim-200.github.io/To_Do_List/" className='btn'>Show Demo</a>
                     </div>
                 </article>
                 <article className="portfolio__item">
@@ -41,7 +41,7 @@ const Portfolio = () => {
                     <h3>This is a portfolio item Title</h3>
                     <div className='portfolio__item-cta'>
                         <a href="https://github.com/" className='btn'>Github</a>
-                        <a href="https://hamim-200.github.io/To_Do_List/" className='btn btn-primary'>Show Demo</a>
+                        <a href="https://hamim-200.github.io/To_Do_List/" className='btn '>Show Demo</a>
                     </div>
                 </article>
                 <article className="portfolio__item">
@@ -51,7 +51,7 @@ const Portfolio = () => {
                     <h3>This is a portfolio item Title</h3>
                     <div className='portfolio__item-cta'>
                         <a href="https://github.com/" className='btn'>Github</a>
-                        <a href="https://hamim-200.github.io/To_Do_List/" className='btn btn-primary'>Show Demo</a>
+                        <a href="https://hamim-200.github.io/To_Do_List/" className='btn '>Show Demo</a>
                     </div>
                 </article>
                 <article className="portfolio__item">
@@ -61,7 +61,7 @@ const Portfolio = () => {
                     <h3>This is a portfolio item Title</h3>
                     <div className='portfolio__item-cta'>
                         <a href="https://github.com/" className='btn'>Github</a>
-                        <a href="https://hamim-200.github.io/To_Do_List/" className='btn btn-primary'>Show Demo</a>
+                        <a href="https://hamim-200.github.io/To_Do_List/" className='btn '>Show Demo</a>
                     </div>
                 </article>
                 <article className="portfolio__item">
@@ -71,7 +71,7 @@ const Portfolio = () => {
                     <h3>This is a portfolio item Title</h3>
                     <div className='portfolio__item-cta'>
                         <a href="https://github.com/" className='btn'>Github</a>
-                        <a href="https://hamim-200.github.io/To_Do_List/" className='btn btn-primary'>Show Demo</a>
+                        <a href="https://hamim-200.github.io/To_Do_List/" className='btn '>Show Demo</a>
                     </div>
                 </article>
             </div>

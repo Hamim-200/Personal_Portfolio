@@ -6,8 +6,7 @@ import Footer from './components/Footer/Footer';
 import Header from './components/header/Header'
 import Nav from './components/Nav/Nav';
 import Portfolio from './components/portfolio/Portfolio';
-import Service from './components/services/Service';
-import Testimonial from './components/testimonial/Testimonial';
+import ScrollButton from './components/scroll/Scroll';
 
 const App = () => {
     return (
@@ -16,12 +15,12 @@ const App = () => {
             <Nav></Nav>
             <About></About>
             <Exprience></Exprience>
-            <Service></Service>
             <Portfolio></Portfolio>
-            <Testimonial></Testimonial>
             <Contact></Contact>
             <Footer></Footer>
+            <ScrollButton></ScrollButton>
         </>
+
     );
 };
 

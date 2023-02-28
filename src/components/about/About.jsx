@@ -1,6 +1,5 @@
 import React from 'react';
 import './about.css'
-import ME from '../../images/me-about.jpg'
 import { FaAward, FaUsers, FaFolder } from 'react-icons/fa';
 
 
@@ -12,12 +11,6 @@ const About = () => {
             <h2>About</h2>
 
             <div className='container about__container'>
-                <div className="about__me">
-                    <div className="about__me-image">
-                        <img src={ME} alt="" />
-                    </div>
-                </div>
-
                 <div className="about__content">
                     <div className="about__cards">
                         <article className='about__card'>
@@ -37,6 +30,12 @@ const About = () => {
                             <h5>Project</h5>
                             <small>80+ project</small>
                         </article>
+
+                        <article className='about__card'>
+                            <FaFolder className='about__icon'></FaFolder>
+                            <h5>Project</h5>
+                            <small>80+ project</small>
+                        </article>
                     </div>
 
                     <p>
@@ -45,14 +44,18 @@ const About = () => {
                         blanditiis quam, beatae sed asperiores tenetur
                         eum excepturi reiciendis! Dolores
                         laudantium, vero maiores quidem ut
-                        magnam harum numquam!
+                        magnam harum numquam! Lorem, ipsum
+                        dolor sit amet consectetur adipisicing elit.
+                        Mollitia nemo non sapiente ipsa perspiciatis
+                        ipsam deserunt omnis fugit. Quam mollitia nesciunt,
+                        quos maxime quas id inventore. Suscipit nobis at inventore!
                     </p>
 
-                    <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+                    <a href="#contact" className='btn about_btn'>Let's Talk</a>
 
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 
