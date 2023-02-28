@@ -1,9 +1,9 @@
 import React from 'react';
 import CTA from './CTA';
-import ME from '../../images/avatar3.jpg'
+import ME from '../../images/me.png'
 import HeaderSocial from './HeaderSocial';
 import './header.css'
-import Typewriter from "typewriter-effect"
+
 
 const Header = () => {
     return (
@@ -11,34 +11,18 @@ const Header = () => {
             <div className='container header_container'>
                 <h5>Helllo I'm</h5>
                 <h1>Hamim Ahmed</h1>
-                <h5 className='text-light'>
-                    <Typewriter
-                        options={{
-                            autoStart: true,
-                            loop: true,
-                            delay: 50,
-                            strings: [
-                                "Web developre",
-                                "App developer",
-                                "Programmer"
-                            ],
-                        }}
-
-                    ></Typewriter>
-
-                </h5>
+                <h5 className='text-light'>Fullstack Developer</h5>
 
                 {/* ICon & Buttons */}
                 <CTA></CTA>
                 <HeaderSocial></HeaderSocial>
 
                 {/* Image */}
-
-                <div className="me_img">
+                <div className="me">
                     <img src={ME} alt="me" />
                 </div>
 
-                <a href="#contact" className='scroll__down'>Contact ME</a>
+                <a href="#contact" className='scroll__down'>Scroll Down</a>
             </div>
         </header>
     );

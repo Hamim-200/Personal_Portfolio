@@ -11,7 +11,7 @@
 }
 
 :root {
-    --color-bg: #162127;
+    --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
@@ -39,6 +39,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
+    background-image: url(../src/images/bg-texture.png);
 }
 
 /* general style */
@@ -61,6 +62,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    /* height: 100vh; */
 }
 
 section>h2,
@@ -114,8 +116,6 @@ img {
     width: 100%;
     object-fit: cover;
 }
-
-
 
 /* Responsive (Medium Devices)*/
 @media screen and (max-width:1024px) {
